@@ -1,0 +1,757 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+    background-color: #282828;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+header {
+    min-height: 900px;
+    min-width: 700px;
+    background: url("../img/bg-shadow.png") no-repeat center 0,
+    url("../img/header_line.png") no-repeat center 0,
+    url("../img/bread_bg_img.jpg") no-repeat center 0;
+}
+
+.header__logo {
+    font-family: 'scriptina';
+    font-size: 30px;
+    color: #e5e4e3;
+    margin-top: 10px;
+}
+
+.menu__header, .menu__header a {
+
+    width: 770px;
+    height: 10px;
+    color: #ffffff;
+    font-family: Alegreya;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+
+}
+
+.menu__item {
+    padding-right: 10px;
+}
+
+.social__item {
+    font-size: 14px;
+    color: #eae7e2;
+    padding-right: 20px;
+    margin-top: 35px;
+}
+
+.slogan {
+    margin-top: 250px;
+
+}
+
+.slogan__title {
+    text-shadow: 0 1px 0 #3d3029;
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 92px;
+    font-weight: 700;
+    /* Text style for "Pastry wit" */
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.slogan__text {
+    font-family: 'Proxima Nova';
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+a.menu_button {
+    display: inline-block;
+    padding: 15px 45px;
+    border: 1px solid #9e9c93;
+    margin-top: 60px;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Alegreya;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    letter-spacing: 5px;
+    background-color: rgba(86, 83, 76, 0.6);
+}
+
+a.menu_button:hover {
+    background-color: rgba(86, 83, 76, 0.3);
+}
+
+.promo {
+    min-height: 730px;
+    min-width: 700px;
+    background: url("../img/promo_bg_2.jpg") no-repeat center 0,
+    url("../img/promo_bg_1.png") no-repeat center 0;
+    padding-top: 100px;
+}
+
+.promo::before {
+    content: "";
+    position: absolute;
+    background: url("../img/promo_cake.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    top: -55px;
+    left: 900px;
+    z-index: 100;
+}
+
+.promo__header, .tasty__main-header {
+    font-family: 'Alegreya';
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #56534c;
+}
+
+.promo__under_header, .tasty__under-header {
+    font-family: 'Alegreya';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #a47d5e;
+    text-align: center;
+}
+
+.promo__text, .tasty__header-text {
+    font-family: 'Proxima Nova';
+    color: #56534c;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.promo h4 {
+    font-size: 24px;
+    font-family: Alegreya;
+    text-align: center;
+    color: #56534c;
+    font-weight: 700;
+
+}
+
+.promo__avatar {
+    text-align: center;
+}
+
+.promo__name {
+    font-family: Alegreya;
+    font-size: 24px;
+    color: #000;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    letter-spacing: 5px;
+}
+
+.promo__photo {
+    padding: 10px 30px;
+}
+
+.promo__quote {
+    font-family: "Times New Roman";
+    font-size: 60px;
+    color: #56534c;
+}
+
+.quote_right {
+    padding-left: 400px;
+
+}
+
+.promo__citate {
+    font-family: 'scriptina';
+    font-size: 24px;
+    color: #a47d5e;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.promo__img-1 {
+    bottom: 250px;
+    left: 40px;
+}
+
+.promo__img-2 {
+    bottom: 250px;
+    left: 340px;
+}
+
+.promo__img-3 {
+    top: 295px;
+    right: 235px;
+}
+
+.promo__img-4 {
+    top: 295px;
+    left: 55px;
+}
+
+.promo__gear::after {
+    content: "";
+    position: absolute;
+    width: 278px;
+    height: 279px;
+    top: 165px;
+    left: 200px;
+    background: url("../img/test.png") no-repeat;
+    z-index: 200;
+}
+
+.promo__gear::before {
+    content: "tastes so good";
+    position: absolute;
+    top: 240px;
+    left: 290px;
+    color: #c9b176;
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    z-index: 201;
+}
+
+.tasty {
+    min-height: 830px;
+    min-width: 690px;
+    font-size: 0;
+    background: url("../img/tasty-bg-image_cr.jpg") no-repeat center 0/1600px auto;
+}
+
+.tasty__header {
+    position: absolute;
+    top: 150px;
+    left: 465px;
+    width: 520px;
+    height: 510px;
+    background: #fffdd9;
+}
+
+.tasty__main-header, .tasty__under-header, .tasty__header-text {
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+.tasty__header-text {
+    display: inline-block;
+    padding-top: 50px;
+}
+.tasty__main-header {
+    padding-top: 50px;
+}
+
+.tasty__cooking {
+    position: absolute;
+    top: 115px;
+    left: 885px;
+    width: 200px;
+    height: 200px;
+
+    outline: none;
+    background: #fffdd9;
+    box-shadow: 0px 29px 143px -12px rgba(181, 172, 162, 1);
+}
+
+.tasty__cooking-header {
+    font-family: 'Alegreya';
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #a47d5e;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 25px;
+    color: #9e7348;
+}
+
+.tasty__cooking-time {
+    position: absolute;
+    font-family: 'Alegreya';
+    font-size: 92px;
+    font-weight: 700;
+    color: #9e7348;
+    letter-spacing: 10px;
+    top: 25px;
+    left: 52px;
+}
+
+.tasty__cooking-dim {
+    position: absolute;
+    font-family: 'Alegreya';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: #a47d5e;
+    top: 150px;
+    left: 85px;
+}
+
+.tasty__slider-items {
+    margin-top: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tasty__current-cake {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    width: 420px;
+    height: 510px;
+    background: url("../img/1.jpeg") no-repeat -200px 0;
+    transition: all 0.3s;
+}
+
+#tasty__slider-item-1 {
+    background: url("../img/2.jpeg") no-repeat -430px -400px;
+}
+
+#tasty__slider-item-2 {
+    background: url("../img/3.jpeg") no-repeat -430px -400px;
+}
+
+#tasty__slider-item-3 {
+    background: url("../img/4.jpeg") no-repeat -430px -400px;
+}
+
+#tasty__slider-item-1:hover {
+    background: url("../img/2.jpeg") no-repeat center center/200px, 300px;
+}
+
+#tasty__slider-item-2:hover {
+    background: url("../img/3.jpeg") no-repeat center center/200px, 300px;
+}
+#tasty__slider-item-3:hover {
+    background: url("../img/4.jpeg") no-repeat center center/200px, 300px;
+}
+
+.tasty__slider-items:hover {
+    transform: scale(1.5);
+    transition: all 0.3s;
+    background-size: 30%, 30%;
+
+}
+
+.tasty__slider-arrow-right::before,
+.tasty__slider-arrow-left::before {
+    color: #ddb586;
+    font-size: 30px;
+    line-height: 18px;
+    position: absolute;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.tasty__slider-arrow-left::before {
+    content: "‹";
+    top: 425px;
+    left: 70px;
+    transition: all 0.3s;
+}
+
+.tasty__slider-arrow-right::before {
+    content: "›";
+    top: 425px;
+    left: 410px;
+}
+
+.tasty__slider-arrow-left:hover::before,
+.tasty__slider-arrow-right:hover::before {
+
+    color: #FCD29B;
+    cursor: pointer;
+}
+
+.menu {
+    min-height: 830px;
+    min-width: 690px;
+    background: url("../img/menu_bg.jpg") no-repeat center 0;
+}
+
+.menu__main {
+    display: inline-block;
+    font-family: Alegreya;
+    color: #fffdd9;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu__content > h2 {
+    font-size: 60px;
+    margin-top: 89px;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+
+.menu__content-under-header {
+    font-size: 18px;
+    color: #c89c75;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 66px;
+}
+
+.menu__item-name {
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s;;
+}
+
+.menu__item-name:hover {
+    color: #807e6a;
+}
+
+.menu__item-description {
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #c7b698;
+    margin: 5px auto;
+}
+
+.menu__item-price {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #e3bf72;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+
+.menu__page-current {
+    position: absolute;
+    background: url("../img/menu-wheat.png") no-repeat 190px 390px,
+                url("../img/menu_page_current.png") no-repeat;
+    top: -370px;
+    left: 75px;
+    width: 440px;
+    height: 600px;
+    margin-top: 89px;
+    z-index: 4;
+}
+
+.menu__page-2 {
+    position: absolute;
+    background: url("../img/menu_page-2.png") no-repeat;
+    top: -250px;
+    left: 135px;
+    width: 400px;
+    height: 548px;
+    z-index: 2;
+}
+
+.menu__page-3 {
+    position: absolute;
+    background: url("../img/menu_page-3.png") no-repeat;
+    top: -230px;
+    left: 185px;
+    width: 370px;
+    height: 500px;
+}
+
+.menu__page-current::before,
+.menu__page-current::after {
+    content: "EST.";
+    position: absolute;
+    color: #56534c;
+    font-family: Alegreya;
+    top: 54px;
+    left: 105px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.menu__page-current::after {
+    content: "1893";
+    left: 308px;
+}
+
+.menu__page-header {
+    position: absolute;
+    width: 335px;
+    color: #56534c;
+    font-family: Alegreya;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.1px;
+    top: 200px;
+    left: 55px;
+}
+
+.menu__page-text {
+    position: absolute;
+    width: 324px;
+    color: #56534c;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+    top: 350px;
+    left: 55px;
+}
+
+a.menu__page-button {
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #9e9275;
+    border-radius: 0.12em;
+    padding: 15px 85px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Alegreya;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #a47d5e;
+    text-align: center;
+    transition: all 0.2s;
+    letter-spacing: 5px;
+    background: rgba(243, 241, 233, .2);
+    top: 485px;
+    left: 100px;
+}
+
+a.menu__page-button:hover {
+    background: #e4e2da;
+    color: #e8b789;
+}
+
+.recipe {
+    min-height: 920px;
+    background:
+            url("../img/recipe-windmill.png") no-repeat center 0,
+            url("../img/bg-recipe.png") no-repeat center 0;
+}
+
+.recipe__header h2 {
+    color: #524b3a;
+    font-family: Alegreya;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #56534c;
+    letter-spacing: 1.2px;
+    padding-top: 100px;
+}
+
+.recipe__header p {
+    color: #a47d5e;
+    font-family: Alegreya;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #9e7348;
+    letter-spacing: 1.2px;
+}
+
+.recipe__main-item {
+    display: inline-block;
+}
+
+.recipe__item-img {
+    margin-left: 75px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 15px -5px rgba(255, 225, 151, 1);
+}
+
+.recipe__main-item:first-child .recipe__item-img {
+    background: url("../img/recipe-main-img-1.png") no-repeat center 0;
+}
+
+.recipe__main-item:nth-child(2) .recipe__item-img {
+    background: url("../img/recipe-main-img-2.png") no-repeat;
+}
+
+.recipe__main-item:last-child .recipe__item-img {
+    background: url("../img/recipe-main-img-3.png") no-repeat;
+}
+
+.recipe__item-header {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #a47d5e;
+    font-family: Alegreya;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+}
+
+.recipe__item-paragraph {
+    color: #56534c;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+}
+
+.recipe__right-img {
+    display: block;
+    position: relative;
+    margin-top: 105px;
+    margin-left: 60px;
+    width: 840px;
+    height: 556px;
+    background: url("../img/recipe-right-img.jpg") no-repeat center 0;
+    box-shadow: 0 0 18px rgba(255, 230, 168, 0.54);
+    border: 10px solid #ffffff;
+}
+
+.recipe__right-img::before {
+    content: "full recipe";
+    position: absolute;
+    width: 171px;
+    height: 60px;
+    border: 1px dashed #dfc691;
+    background-color: #ffffff;
+    left: -30px;
+    bottom: -30px;
+    color: #dfc691;
+    font-family: Alegreya;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 13px;
+}
+
+.recipe__details-box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.recipe__details-box h2 {
+    color: #9e7348;
+    font-family: Alegreya;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-top: 35px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.recipe__details-box:first-child p:first-of-type,
+.recipe__details-box:nth-child(2) p:first-of-type {
+    color: #524b3a;
+    font-family: Alegreya;
+    font-size: 60px;
+    text-transform: uppercase;
+    height: 65px;
+    margin-top: -20px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.recipe__details-box p:last-of-type {
+    color: #968869;
+    font-family: Alegreya;
+    font-size: 18px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.recipe__details-box:first-child {
+    left: 705px;
+    top: 80px;
+    background: rgba(230, 248, 206, .8);
+}
+
+.recipe__details-box:nth-child(2) {
+    left: 705px;
+    top: 280px;
+    background: rgba(230, 248, 206, .8);
+}
+
+.recipe__details-box:last-child {
+    background: url("../img/recipe-box-3.png") center 0 no-repeat #fffdd9;
+    left: 705px;
+    top: 480px;
+}
+
+.recipe__details-box:last-child p:first-of-type {
+    font-size: 92px;
+    color: #e3bf72;
+    font-family: Alegreya;
+    font-weight: 700;
+    margin-top: -30px;
+    height: 90px;
+}
+
+.footer {
+    background: url("../img/footer-bg.png") no-repeat center 0;
+    min-width: 700px;
+    min-height: 175px;
+}
+
+.menu__footer, .menu__footer a {
+    color: #524b3a;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: Alegreya;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.menu__footer {
+    border-top: 1px solid #c7b698;
+    border-bottom: 1px solid #c7b698;
+    padding: 20px 5px;
+}
+.footer__logo {
+    position: relative;
+    color: #524b3a;
+    font-family: 'scriptina';
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+.footer__menu {
+    margin-left: 25px;
+}

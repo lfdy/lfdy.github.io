@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bakery</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Наш файл стилей -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row header">
+            <div class="col-lg-2 header__logo">
+                Gustoso
+            </div>
+            <div class="col-lg-8">
+                <nav>
+                    <ul class="list-inline menu__header" id="menu__header">
+                        <li class="menu__item list-inline-item">
+                            <a href="#">Welcome</a></li>
+                        <li class="menu__item list-inline-item">~</li>
+                        <li class="menu__item list-inline-item">
+                            <a href="#">Menu</a></li>
+                        <li class="menu__item list-inline-item">~</li>
+                        <li class="menu__item list-inline-item">
+                            <a href="#tasty">reservations</a></li>
+                        <li class="menu__item list-inline-item">~</li>
+                        <li class="menu__item list-inline-item">
+                            <a href="#">News</a></li>
+                        <li class="menu__item list-inline-item">~</li>
+                        <li class="menu__item list-inline-item">
+                            <a href="#promo">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-2">
+                <ul class="list-inline social">
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="social__item fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="social__item fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="social__item fa fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="slogan">
+                    <h1 class="slogan__title">Pastry with love</h1>
+                    <p class="slogan__text">
+                        We’re bringing you fresh ingredients every day in ways you can’t resist.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-auto">
+                <a href="#menu" class="menu_button">our menu</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="promo position-relative" id="promo">
+
+    <div class="container">
+        <div class="row promo__block">
+
+            <div class="col-lg-6">
+                <h2 class="promo__header">Art of cakes</h2>
+                <p class="promo__under_header">we create delicious memories</p>
+                <p class="promo__text">Quisque rutrum. Aenean imperdiet. Etiam ultricies
+                    nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                    Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                    sem quam semper libero, sit amet adipiscing sem neque sed.</p>
+                <h4>Chef Cook</h4>
+                <div class="promo__avatar">
+                    <i class="promo__name">Benito</i>
+                    <span class="promo__photo">
+                    <img src="img/benito_gaspare.png" alt="Benito Gaspare">
+                </span>
+                    <i class="promo__name">Gaspare</i>
+                </div>
+                <i class="promo__quote quote_left">“</i>
+                <span class="promo__citate">Unique creations for unique
+                occasions.</span><br>
+                <i class="promo__quote quote_right">”</i>
+            </div>
+            <div class="col-lg-3 promo__img-block position-relative">
+                <i class="promo__gear"></i>
+                <img src="img/img_promo_1.png" alt="" class="promo__img-1 position-absolute">
+                <img src="img/img_promo_2.png" alt="" class="promo__img-2 position-absolute">
+            </div>
+            <div class="col-lg-3 promo__img-block position-relative">
+                <img src="img/img_promo_3.png" alt="" class="promo__img-3 position-absolute">
+                <img src="img/img_promo_4.png" alt="" class="promo__img-4 position-absolute">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tasty" id="tasty">
+    <div class="container">
+        <div class="row tasty__block">
+            <div class="col-lg-10 tasty__cake">
+                <div class="tasty__current-cake" id="tasty__current">
+
+                </div>
+                <div class="tasty__header">
+                    <h2 class="tasty__main-header">Tasty pancakes</h2>
+                    <p class="tasty__under-header">season favourite</p>
+                    <p class="tasty__header-text">
+                        Maecenas nec odio et ante tincidunt tempus.
+                        Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+                        Etiam sit amet orci eget eros faucibus.
+                    </p>
+                    <div class="tasty__slider">
+                        <span class="tasty__slider-arrow-left" id="arrow__left"></span>
+                        <ul class="tasty__slider-main list-inline">
+                            <li class="list-inline-item">
+                                <div class="tasty__slider-items" id="tasty__slider-item-1"></div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="tasty__slider-items" id="tasty__slider-item-2"></div>
+                            </li>
+                            <li class="list-inline-item">
+                                <div class="tasty__slider-items" id="tasty__slider-item-3"></div>
+                            </li>
+                        </ul>
+                        <span class="tasty__slider-arrow-right" id="arrow__right"></span>
+                    </div>
+                </div>
+
+                <div class="tasty__cooking">
+                    <h2 class="tasty__cooking-header">
+                        ready in
+                    </h2>
+                    <div class="tasty__cooking-time">
+                        40
+                    </div>
+                    <p class="tasty__cooking-dim">
+                        min
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="menu" id="menu">
+    <div class="container">
+        <div class="row menu__block">
+            <div class="col-lg-6 menu__main">
+                <div class="menu__content">
+                    <h2 class="menu__content-header">Breakfast</h2>
+                    <p class="menu__content-under-header">7am Breakfast? we’re open!</p>
+                </div>
+                <div class="menu__items">
+                    <h2 class="menu__item-name">Full breakfast</h2>
+                    <p class="menu__item-description">Duis ut tortor, et risus, vulputate pretium.</p>
+                    <p class="menu__item-price">$12.49</p>
+                </div>
+                <div class="menu__items">
+                    <h2 class="menu__item-name">Toast & jam</h2>
+                    <p class="menu__item-description">Lorem ipsum dolor sit.</p>
+                    <p class="menu__item-price">$8.50</p>
+                </div>
+                <div class="menu__items">
+                    <h2 class="menu__item-name">Muffins</h2>
+                    <p class="menu__item-description">Lorem ipsum dolor sit.</p>
+                    <p class="menu__item-price">$2.30</p>
+                </div>
+            </div>
+
+            <div class="col-lg-5 offset-lg-1 align-self-center menu__pages position-relative">
+                <div class="menu__page-current" id="menu__page-current">
+                    <h2 class="menu__page-header">Your morning Escape with Flair</h2>
+                    <p class="menu__page-text">Donec vitae sapien ut libero venenatis faucibus.
+                        Nullam quis ante. Etiam sit amet orci eget eros
+                        faucibus tincidunt. Duis leo.</p>
+                    <a href="#" class="menu__page-button">read</a>
+                </div>
+                <div class="menu__page-2"></div>
+                <div class="menu__page-3"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="recipe">
+    <div class="container">
+        <div class=" row recipe__header">
+            <div class="col">
+                <h2>The Jibarito sandwich</h2>
+                <p>the best sandwich you’ve ever tasted!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class=" row recipe__main">
+            <div class="col-lg-3">
+                <div class="recipe__main-item">
+                    <div class="recipe__item-img"></div>
+                    <h2 class="recipe__item-header">Class aptent</h2>
+                    <p class="recipe__item-paragraph">Quot alienum persecuti ut eam, nam ad
+                        atqui primis nusquam.</p>
+                </div>
+                <div class="recipe__main-item">
+                    <div class="recipe__item-img"></div>
+                    <h2 class="recipe__item-header">Nulla eget</h2>
+                    <p class="recipe__item-paragraph">Nullam dictum felis eu pede mollis
+                        pretium Integer tincidunt.</p>
+                </div>
+                <div class="recipe__main-item">
+                    <div class="recipe__item-img"></div>
+                    <h2 class="recipe__item-header">Sed nibh purus</h2>
+                    <p class="recipe__item-paragraph">Aenean eleifend tellus leo ligula,
+                        porttitor eu, consequat vitae.</p>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="recipe__right-img"></div>
+                <div class="recipe__right-details">
+                    <ul class="recipe__details-list list-group">
+                        <li class="list-group-item recipe__details-box">
+                            <h2>prep</h2>
+                            <p>15</p>
+                            <p>mins</p>
+                        </li>
+                        <li class="list-group-item recipe__details-box">
+                            <h2>cook</h2>
+                            <p>35</p>
+                            <p>mins</p>
+                        </li>
+                        <li class="list-group-item recipe__details-box">
+                            <h2>ready in</h2>
+                            <p>50</p>
+                            <p>mins</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row footer__menu">
+
+            <div class="col-lg-5 menu__footer-left">
+                <ul class="list-inline menu__footer">
+                    <li class="menu__footer-item list-inline-item">
+                        <a href="#">Our menu</a></li>
+                    <li class="menu__footer-item list-inline-item">~</li>
+                    <li class="menu__footer-item list-inline-item">
+                        <a href="#promo">Gallery</a></li>
+                    <li class="menu__footer-item list-inline-item">~</li>
+                    <li class="menu__footer-item list-inline-item">
+                        <a href="#tasty">Culture</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 footer__logo">Gustoso</div>
+
+            <div class="col-lg-5 menu__footer-right">
+                <ul class="list-inline menu__footer">
+                    <li class="menu__footer-item list-inline-item"><a href="#">events</a></li>
+                    <li class="menu__footer-item list-inline-item">~</li>
+                    <li class="menu__footer-item list-inline-item"><a href="#promo">catering</a></li>
+                    <li class="menu__footer-item list-inline-item">~</li>
+                    <li class="menu__footer-item list-inline-item"><a href="#tasty">visit us</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#menu__header").on("click", "a", function (event) {
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 300);
+        });
+    });
+</script>
+</body>
+</html>
+
+<!--Welcome     ~     Menu     ~     reservations     ~     News     ~     Contact-->
