@@ -16,16 +16,16 @@ var tasty_item_3 = document.getElementById('tasty__slider-item-3');
 var count = 5;
 
 var listImg = [
-    "url('file:///C:/Project/Bakery_test/img/1.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/2.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/3.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/4.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/5.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/6.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/7.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/8.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/9.jpeg')",
-    "url('file:///C:/Project/Bakery_test/img/10.jpeg')"
+    "url('../img/1.jpeg')",
+    "url('../img/2.jpeg')",
+    "url('../img/3.jpeg')",
+    "url('../img/4.jpeg')",
+    "url('../img/5.jpeg')",
+    "url('../img/6.jpeg')",
+    "url('../img/7.jpeg')",
+    "url('../img/8.jpeg')",
+    "url('../img/9.jpeg')",
+    "url('../img/10.jpeg')"
 ];
 var listImgLength = listImg.length;
 var i = 0;
